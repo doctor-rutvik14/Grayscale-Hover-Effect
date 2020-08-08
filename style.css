@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(12, 32, 41);
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+img{
+    cursor: pointer;
+    height: 400px;
+    width: 600px;
+    border: 13px solid aliceblue;
+    transition: .8s ease-in-out;
+    filter: grayscale(100%);
+}
+img:hover{
+    filter: grayscale(0%);
+}
